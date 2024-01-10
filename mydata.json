@@ -1,0 +1,86 @@
+
+{
+    "name": "Total Appointments",
+    "numbers":8638,
+    "color": "gray",
+    "children": [
+      {
+        "name": "Pre-Scheduled",
+        "numbers": 8638,
+        "color": "#1c84e2",
+        "children": [
+          {
+            "name": "Call Center",
+            "numbers":4633,
+            "color": "#6b4e9a",
+            "children": [
+              {
+                "name": "Internal", 
+                "numbers":538,
+                "color": "#6b4e9a",
+                "children": [
+                  {"name": "Inputs", "numbers":238, "color":"#690d60"},
+                  {"name": "Outputs", "numbers":300, "color":"#690d60"}
+                ]
+              }, 
+              {
+                "name":"Contractors", 
+                "numbers":1441,
+                "color": "#6b4e9a",
+                "children": [
+                  { "name": "Inputs", "numbers":54,"color":"#690d60" },
+                  { "name":"Outputs", "numbers":1387,"color":"#690d60" }
+                ]
+              }, 
+              {"name":"IVR Reference", "numbers":2653, "color": "#6b4e9a"}
+            ]
+          }, 
+          {
+            "name": "Online",
+            "numbers":1779,
+            "color": "#154c70",
+            "children": [
+              {
+                "name":"AEG", 
+                "numbers":1709,
+                "color": "#154c70"
+              },
+              {
+                "name":"zocdoc", 
+                "numbers":70,
+                "color": "#154c70",
+                "children": [
+                 { "name": "New", "numbers":58, "color":"#154c70"},
+                 {"name": "Existing", "numbers":12, "color":"#154c70"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Practice Staff",
+            "numbers":1844,
+            "color": "#747915",
+            "children":[
+              {"name":"Outgoing", "numbers":239, "color": "#747915"},
+              {"name":"Incoming or in-office", "numbers":1605, "color": "#747915"}
+            ]
+          },
+          {
+            "name": "Pre-Appoints",
+            "numbers":92,
+            "color": "#d2ced8"
+          },
+          {
+            "name": "Others",
+            "numbers":290,
+            "color": "#e4b476"
+          }
+        ]
+      },
+      {
+        "name": "Walk Ins",
+        "numbers":0,
+        "color": "#b5b2b9"
+      }
+    ]
+}
