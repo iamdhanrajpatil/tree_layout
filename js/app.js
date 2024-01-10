@@ -44,7 +44,7 @@ let node = canvas.selectAll(".node")
             .attr("transform", (d)=>{ return "translate(" + d.y + ", " + d.x + ")"; })
 
     node.append("rect")
-            .attr("width", 175)
+            .attr("width", 180)
             .attr("height", 50)
             .attr("fill", d=>{ return d.color})
             .attr("stroke", "#000")
