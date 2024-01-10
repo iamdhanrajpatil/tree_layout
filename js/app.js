@@ -72,7 +72,7 @@ let node = canvas.selectAll(".node")
         .attr("y", 16)
         .attr("fill", "#fff")
         
-    d3.selectAll("rect","text")
+    d3.selectAll("rect")
         .on("click", (d,i)=>{
             alert(d.name + "\n" + d.numbers + "\n" + (d.numbers/8638*100).toFixed(1) + "%");
         })        
